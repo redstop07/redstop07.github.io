@@ -160,6 +160,84 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://redstop07.github.io/2020/04/09/indexindex/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="RedStop">
+      <meta itemprop="description" content="some notes, ideas, and questions">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Red's Note">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/04/09/indexindex/" class="post-title-link" itemprop="url">About git index</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+              
+
+              <time title="創建時間：2020-04-09 01:58:18 / 修改時間：02:44:02" itemprop="dateCreated datePublished" datetime="2020-04-09T01:58:18+08:00">2020-04-09</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/learning-about-Git/" itemprop="url" rel="index"><span itemprop="name">learning about Git</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="《Git-it指令小抄》"><a href="#《Git-it指令小抄》" class="headerlink" title="《Git-it指令小抄》"></a>《Git-it指令小抄》</h3><blockquote>
+<h4 id="小提示"><a href="#小提示" class="headerlink" title="小提示"></a>小提示</h4><p>方向上鍵 可重複上一條指令<br>方向下鍵 可重複下一條指令</p>
+</blockquote>
+<h4 id="初始設定"><a href="#初始設定" class="headerlink" title="初始設定"></a>初始設定</h4><p><code>$ git config --global</code>設定區域變數(?)</p>
+<blockquote>
+<p><code>git config --global user.name &quot;yourname&quot;</code>設定你的名字<br><code>git config --global user.email &quot;youremail&quot;</code>設定你的電郵<br><code>git config --global user.username &quot;yourGitHubAccount&quot;</code>連動GitHub帳號</p>
+</blockquote>
+<h4 id="基礎指令"><a href="#基礎指令" class="headerlink" title="基礎指令"></a>基礎指令</h4><p><code>ls</code> list<br><code>cd</code> 移動使用者目前位置<br><code>cp</code> copy<br><code>mv</code> move<br><code>rm</code> remove<br><code>rmdir</code> remove directories<br><code>mkdir</code> create a new directory</p>
+<h4 id="連動資料夾以及儲存變動"><a href="#連動資料夾以及儲存變動" class="headerlink" title="連動資料夾以及儲存變動"></a>連動資料夾以及儲存變動</h4><p><code>git init</code>將資料夾加上git功能<br><code>git status</code>查看檔案狀態<br><code>git add foldername</code>: 準備commit一個檔案<br><code>git add .</code>:準備commit所有檔案<br><code>git diff</code>: check out the difference<br><code>git commit -m &quot;yourmessage&quot;</code>: commit(儲存)你的變更並附上簡短說明<br><code>git remote add origin &lt;URLFROMGITHUB&gt;</code>: 遠端控制GitHub repository<br><code>git remote set-url origin &lt;URLFROMGITHUB&gt;</code>: 效果同上(如果下載了GitHub for Window)<br><code>g it push origin master</code>: 把分支master 傳送到新增的remote<br><code>git clone</code>: 複製專案<br><code>git remote add upstream &lt;想上傳變更的網址&gt;</code>: 將分支暫存在向&lt;想上傳變更的網址&gt;的遠端<br><code>git remote -v</code>: 檢查導向網址以及輸出網址<br><code>git branch</code>: 新增分支(後面直接加分支名字)<br><code>git checkout</code>: 切換分支到(直接打分支名)<br>—紀錄修改小撇步—<br>git status<br>git add<br>git commit -m “”<br>git push origin </p>
+<hr>
+<p>git pull 更新其他的使用者對分支進行的更改</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
     <link itemprop="mainEntityOfPage" href="https://redstop07.github.io/2020/04/02/again/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -183,17 +261,23 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
-              
 
-              <time title="創建時間：2020-04-02 03:50:55 / 修改時間：21:37:41" itemprop="dateCreated datePublished" datetime="2020-04-02T03:50:55+08:00">2020-04-02</time>
+              <time title="創建時間：2020-04-02 03:50:55" itemprop="dateCreated datePublished" datetime="2020-04-02T03:50:55+08:00">2020-04-02</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-04-09 02:43:47" itemprop="dateModified" datetime="2020-04-09T02:43:47+08:00">2020-04-09</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分類於</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/blog%E5%BB%BA%E7%AB%8B%E5%B0%8F%E8%A8%98/" itemprop="url" rel="index"><span itemprop="name">blog建立小記</span></a>
+                  <a href="/categories/establish-my-blog/" itemprop="url" rel="index"><span itemprop="name">establish my blog</span></a>
                 </span>
             </span>
 
@@ -217,7 +301,11 @@
 <li>分類頁面沒有鍵結</li>
 </ul>
 </blockquote>
-<p>教程看得有點懵。- -200401<br>插入圖片嘗試<br><img src="https://s4.aconvert.com/convert/p3r68-cdx67/aa80z-selvb.png" alt="avatar"><br>成功 - -200402<br>過了一段時間照片源會消失…有沒有更好的圖片轉檔方式?- -200402</p>
+<p>教程看得有點懵。- -200401<br>插入圖片嘗試<br><img src="https://s4.aconvert.com/convert/p3r68-cdx67/aa80z-selvb.png" alt="avatar"><br>成功 - -200402<br>過了一段時間照片源會消失…有沒有更好的圖片轉檔方式?- -200402<br>找到兩個免費圖源網站，明天試 </p>
+<ul>
+<li><img src="https://imgur.com/" alt="Imgur"> </li>
+<li><img src="https://upload.cc/" alt="Upload.cc"> </li>
+</ul>
 
       
     </div>
@@ -260,17 +348,23 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
-              
 
-              <time title="創建時間：2020-04-02 03:50:51 / 修改時間：10:39:33" itemprop="dateCreated datePublished" datetime="2020-04-02T03:50:51+08:00">2020-04-02</time>
+              <time title="創建時間：2020-04-02 03:50:51" itemprop="dateCreated datePublished" datetime="2020-04-02T03:50:51+08:00">2020-04-02</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-04-09 02:43:50" itemprop="dateModified" datetime="2020-04-09T02:43:50+08:00">2020-04-09</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分類於</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/blog%E5%BB%BA%E7%AB%8B%E5%B0%8F%E8%A8%98/" itemprop="url" rel="index"><span itemprop="name">blog建立小記</span></a>
+                  <a href="/categories/establish-my-blog/" itemprop="url" rel="index"><span itemprop="name">establish my blog</span></a>
                 </span>
             </span>
 
@@ -349,19 +443,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
-              
 
-              <time title="創建時間：2020-04-02 03:16:44 / 修改時間：07:02:10" itemprop="dateCreated datePublished" datetime="2020-04-02T03:16:44+08:00">2020-04-02</time>
+              <time title="創建時間：2020-04-02 03:16:44" itemprop="dateCreated datePublished" datetime="2020-04-02T03:16:44+08:00">2020-04-02</time>
             </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/blog%E5%BB%BA%E7%AB%8B%E5%B0%8F%E8%A8%98/" itemprop="url" rel="index"><span itemprop="name">blog建立小記</span></a>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
                 </span>
-            </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-04-09 02:43:42" itemprop="dateModified" datetime="2020-04-09T02:43:42+08:00">2020-04-09</time>
+              </span>
 
           
 
@@ -468,12 +559,12 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分類</span>
       </div>
   </nav>
